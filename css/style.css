@@ -1,21 +1,64 @@
 #introduction {
-
+    background-color: #273139;
+    color: #fff;
+    text-align: center;
+}
+#introduction h1 {
+    font-size: 82px;
+}
+#introduction h2 {
+    font-size: 29px;
+}
+#introduction p {
+    font-size: 18px;
 }
 #about {
-
+    background-color: #fff;
+}
+#about .left-content {
+    width: 320px;
+    height: 320px;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #000;
+}
+#about .left-content img {
+    max-width: 100%;
+    height: auto;
+}
+#about .right-content {
+    margin-left: 80px;
+    width: 600px;
+    float: left;
 }
 #testimonies {
-
+    background-color: #424242;
 }
 #portfolio {
-
+    background-color: #fff;
 }
 #quote {
-
+    background-color: #424242;
 }
 #blog {
-
+    background-color: #fff;
 }
 #contact {
-
+    background-color: #1b1b1b;
+}
+.full {
+    width: 100%;
+    height: auto;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+.btn {
+    background-color: #475057;
+    color: #559f85;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
